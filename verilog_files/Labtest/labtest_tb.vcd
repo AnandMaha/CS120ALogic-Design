@@ -1,0 +1,96 @@
+$date
+	Tue Jul 20 11:38:16 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module labtest_tb $end
+$var wire 1 ! V $end
+$var wire 2 " Out [1:0] $end
+$var reg 4 # In [3:0] $end
+$scope module uut $end
+$var wire 4 $ In [3:0] $end
+$var wire 1 ! V $end
+$var wire 1 % tempAnd $end
+$var wire 2 & Out [1:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b10 &
+1%
+b0 $
+b0 #
+b10 "
+0!
+$end
+#10
+b0 "
+b0 &
+0%
+1!
+b1 #
+b1 $
+#20
+b1 "
+b1 &
+b10 #
+b10 $
+#30
+b11 #
+b11 $
+#40
+1%
+b10 "
+b10 &
+b100 #
+b100 $
+#50
+b0 "
+b0 &
+0%
+b101 #
+b101 $
+#60
+b1 "
+b1 &
+b110 #
+b110 $
+#70
+b111 #
+b111 $
+#80
+1%
+b11 "
+b11 &
+b1000 #
+b1000 $
+#90
+0%
+b1001 #
+b1001 $
+#100
+b1010 #
+b1010 $
+#110
+b1011 #
+b1011 $
+#120
+1%
+b1100 #
+b1100 $
+#130
+0%
+b1101 #
+b1101 $
+#140
+b1110 #
+b1110 $
+#150
+b1111 #
+b1111 $
+#160

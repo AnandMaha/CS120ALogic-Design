@@ -1,0 +1,139 @@
+$date
+	Thu Jul 15 12:00:39 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module lab6_regfile_tb $end
+$var wire 32 ! RData [31:0] $end
+$var reg 1 " Clk $end
+$var reg 2 # RAddr [1:0] $end
+$var reg 1 $ Ren $end
+$var reg 1 % Rst $end
+$var reg 2 & WAddr [1:0] $end
+$var reg 32 ' WData [31:0] $end
+$var reg 1 ( Wen $end
+$scope module uut $end
+$var wire 1 " Clk $end
+$var wire 2 ) RAddr [1:0] $end
+$var wire 1 $ Ren $end
+$var wire 1 % Rst $end
+$var wire 2 * WAddr [1:0] $end
+$var wire 32 + WData [31:0] $end
+$var wire 1 ( Wen $end
+$var reg 32 , RData [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bz ,
+b1111 +
+b0 *
+b0 )
+1(
+b1111 '
+b0 &
+0%
+0$
+b0 #
+0"
+bz !
+$end
+#5
+1"
+#10
+0"
+#15
+1"
+#20
+0"
+b1100111 '
+b1100111 +
+b1 &
+b1 *
+#25
+1"
+#30
+0"
+#35
+1"
+#40
+0"
+b100010 '
+b100010 +
+b10 &
+b10 *
+#45
+1"
+#50
+0"
+#55
+1"
+#60
+0"
+b1111011 '
+b1111011 +
+b11 &
+b11 *
+#65
+1"
+#70
+0"
+#75
+1"
+#80
+b1111 !
+b1111 ,
+0"
+1$
+0(
+#85
+1"
+#90
+0"
+#95
+1"
+#100
+b1111011 !
+b1111011 ,
+0"
+b11 #
+b11 )
+#105
+1"
+#110
+0"
+#115
+1"
+#120
+bz !
+bz ,
+0"
+1%
+0$
+#125
+1"
+#130
+0"
+#135
+1"
+#140
+b0 !
+b0 ,
+0"
+1$
+b1 #
+b1 )
+0%
+#145
+1"
+#150
+0"
+#155
+1"
+#160
+0"

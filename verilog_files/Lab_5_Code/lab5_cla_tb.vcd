@@ -1,0 +1,199 @@
+$date
+	Tue Jul 13 11:49:57 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module lab5_cla_tb $end
+$var wire 5 ! r [4:0] $end
+$var reg 1 " cin $end
+$var reg 1 # clk $end
+$var reg 1 $ enable $end
+$var reg 4 % x [3:0] $end
+$var reg 4 & y [3:0] $end
+$scope module uut $end
+$var wire 1 " cin $end
+$var wire 1 # clk $end
+$var wire 1 $ enable $end
+$var wire 5 ' r [4:0] $end
+$var wire 4 ( x [3:0] $end
+$var wire 4 ) y [3:0] $end
+$var wire 5 * ir2 [4:0] $end
+$var wire 4 + ir1 [3:0] $end
+$var wire 4 , c [3:0] $end
+$scope module cx1 $end
+$var wire 1 " cin $end
+$var wire 1 - g0 $end
+$var wire 1 . g1 $end
+$var wire 1 / g2 $end
+$var wire 1 0 g3 $end
+$var wire 4 1 x [3:0] $end
+$var wire 4 2 y [3:0] $end
+$var wire 1 3 p3 $end
+$var wire 1 4 p2 $end
+$var wire 1 5 p1 $end
+$var wire 1 6 p0 $end
+$var wire 4 7 cout [3:0] $end
+$upscope $end
+$scope module cx10 $end
+$var wire 5 8 Data [4:0] $end
+$var wire 1 # clk $end
+$var wire 1 9 enable $end
+$var reg 5 : Q [4:0] $end
+$upscope $end
+$scope module cx6 $end
+$var wire 1 ; cin $end
+$var wire 1 < r $end
+$var wire 1 = t1 $end
+$var wire 1 > x $end
+$var wire 1 ? y $end
+$upscope $end
+$scope module cx7 $end
+$var wire 1 @ cin $end
+$var wire 1 A r $end
+$var wire 1 B t1 $end
+$var wire 1 C x $end
+$var wire 1 D y $end
+$upscope $end
+$scope module cx8 $end
+$var wire 1 E cin $end
+$var wire 1 F r $end
+$var wire 1 G t1 $end
+$var wire 1 H x $end
+$var wire 1 I y $end
+$upscope $end
+$scope module cx9 $end
+$var wire 1 " cin $end
+$var wire 1 J r $end
+$var wire 1 K t1 $end
+$var wire 1 L x $end
+$var wire 1 M y $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0M
+1L
+1K
+1J
+0I
+0H
+0G
+0F
+0E
+1D
+0C
+1B
+1A
+0@
+1?
+1>
+0=
+0<
+0;
+bx :
+19
+b10101 8
+b1000 7
+16
+05
+14
+03
+b1100 2
+b1001 1
+10
+0/
+0.
+0-
+b1000 ,
+b101 +
+bx *
+b1100 )
+b1001 (
+bx '
+b1100 &
+b1001 %
+1$
+0#
+0"
+bx !
+$end
+#5
+b10101 !
+b10101 '
+b10101 *
+b10101 :
+1#
+#10
+0#
+#15
+1#
+#20
+0#
+#23
+1F
+1E
+0J
+b1110 8
+b1110 +
+1<
+b1 ,
+b1 7
+0K
+1-
+1=
+00
+0D
+1M
+06
+0>
+1C
+14
+13
+b1001 &
+b1001 )
+b1001 2
+b101 %
+b101 (
+b101 1
+#25
+b1110 !
+b1110 '
+b1110 *
+b1110 :
+1#
+#30
+0#
+#35
+1#
+#39
+b1111 8
+b1111 +
+1J
+1"
+#40
+0#
+#45
+b1111 !
+b1111 '
+b1111 *
+b1111 :
+1#
+#50
+0#
+#54
+0$
+#55
+1#
+#60
+0#
+#65
+1#
+#70
+0#
+#74

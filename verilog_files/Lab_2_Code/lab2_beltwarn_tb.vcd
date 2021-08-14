@@ -1,0 +1,71 @@
+$date
+	Tue Jun 29 14:47:16 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module lab2_beltwarn_tb $end
+$var wire 1 ! W $end
+$var reg 1 " K $end
+$var reg 1 # P $end
+$var reg 1 $ S $end
+$scope module uut $end
+$var wire 1 " K $end
+$var wire 1 % N1 $end
+$var wire 1 & N2 $end
+$var wire 1 # P $end
+$var wire 1 $ S $end
+$var wire 1 ! W $end
+$upscope $end
+$scope module uut2 $end
+$var wire 1 " K $end
+$var wire 1 # P $end
+$var wire 1 $ S $end
+$var reg 1 ' W $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0'
+1&
+0%
+0$
+0#
+0"
+0!
+$end
+#20
+0&
+1$
+#40
+1&
+0$
+1#
+#60
+0&
+1$
+#80
+1&
+0$
+0#
+1"
+#100
+0&
+1$
+#120
+1'
+1!
+1&
+1%
+0$
+1#
+#140
+0'
+0!
+0&
+1$
+#160

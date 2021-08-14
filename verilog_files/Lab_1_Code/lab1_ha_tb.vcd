@@ -1,0 +1,57 @@
+$date
+	Tue Jun 29 15:12:42 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module lab1_ha_tb $end
+$var wire 1 ! Carry $end
+$var wire 1 " Sum $end
+$var reg 1 # A $end
+$var reg 1 $ B $end
+$scope module uut $end
+$var wire 1 # A $end
+$var wire 1 $ B $end
+$var reg 1 % Carry $end
+$var reg 1 & Sum $end
+$upscope $end
+$scope module uut2 $end
+$var wire 1 # A $end
+$var wire 1 $ B $end
+$var wire 1 ! Carry $end
+$var wire 1 " Sum $end
+$upscope $end
+$scope module uut3 $end
+$var wire 1 # A $end
+$var wire 1 $ B $end
+$var wire 1 ! Carry $end
+$var wire 1 " Sum $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0&
+0%
+0$
+0#
+0"
+0!
+$end
+#20
+1&
+1"
+1$
+#40
+0$
+1#
+#60
+1%
+0&
+0"
+1!
+1$
+#80

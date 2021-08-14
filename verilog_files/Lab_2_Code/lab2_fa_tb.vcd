@@ -1,0 +1,131 @@
+$date
+	Tue Jun 29 18:13:23 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module lab2_fa_tb_b $end
+$var wire 1 ! Sum $end
+$var wire 1 " Cout $end
+$var reg 1 # A $end
+$var reg 1 $ B $end
+$var reg 1 % Cin $end
+$scope module uut2 $end
+$var wire 1 # A $end
+$var wire 1 $ B $end
+$var wire 1 % Cin $end
+$var reg 1 " Cout $end
+$var reg 1 ! Sum $end
+$var reg 1 & T1 $end
+$var reg 1 ' T2 $end
+$var reg 1 ( T3 $end
+$upscope $end
+$upscope $end
+$scope module lab2_fa_tb_s $end
+$var wire 1 ) Sum $end
+$var wire 1 * Cout $end
+$var reg 1 + A $end
+$var reg 1 , B $end
+$var reg 1 - Cin $end
+$scope module uut $end
+$var wire 1 + A $end
+$var wire 1 , B $end
+$var wire 1 - Cin $end
+$var wire 1 * Cout $end
+$var wire 1 . S1 $end
+$var wire 1 ) Sum $end
+$var wire 1 / T1 $end
+$var wire 1 0 T2 $end
+$var wire 1 1 T3 $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+01
+00
+0/
+0.
+0-
+0,
+0+
+0*
+0)
+1(
+1'
+1&
+1%
+1$
+1#
+1"
+1!
+$end
+#20
+1)
+0"
+0(
+0'
+0&
+1-
+0$
+0#
+#40
+1.
+0-
+1,
+0%
+1$
+#60
+1*
+0)
+10
+1"
+1'
+0!
+1-
+1%
+#80
+0*
+1)
+00
+0"
+0'
+1!
+0-
+0,
+1+
+0%
+0$
+1#
+#100
+1*
+0)
+1/
+1"
+1&
+0!
+1-
+1%
+#120
+0/
+0.
+11
+1(
+0&
+0-
+1,
+0%
+1$
+#140
+1)
+10
+1/
+1'
+1&
+1!
+1-
+1%
+#160
